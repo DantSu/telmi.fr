@@ -72,6 +72,15 @@ li {
     padding: 1px 0;
 }
 
+a, a:visited, a:focus, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section {
     min-height: 100%;
     display: flex;
@@ -80,7 +89,7 @@ section {
 }
 
 .section-container {
-    max-width: 980px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -98,6 +107,9 @@ section {
 .cols > div {
     flex: 1;
     min-width: 320px;
+}
+
+.cell {
     padding: 20px;
 }
 
@@ -114,7 +126,19 @@ section {
 
 .logo {
     width: 80%;
+    max-width: 800px;
     height: auto;
     display: block;
     margin: 0 auto 30px auto;
+}
+
+.link-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-logo img {
+    width: auto;
+    height: 64px;
 }
