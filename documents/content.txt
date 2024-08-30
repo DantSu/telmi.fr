@@ -1,0 +1,62 @@
+Accueil
+
+Découvrez Telmi - Une expérience ludique pour les petits !
+
+Bienvenue sur le site officiel de Telmi, le système d’exploitation gratuit et open source spécialement conçu pour les enfants de 4 ans et plus. Avec Telmi, vos enfants peuvent explorer un monde d’histoires et de musiques de manière autonome et sécurisée. Telmi leur offrera une expérience unique et ludique.
+
+Fonctionnalités principales :
+
+- Téléchargement d’histoires gratuites
+- Création et importation d’histoires
+- Organisation personnalisée des histoires
+- Importation et personnalisation de musiques
+
+Pourquoi choisir Telmi ?
+
+- Interface simple et intuitive pour les enfants
+- Écran éteint pendant la lecture pour une utilisation sans distraction
+- Paramètres de volume et de luminosité ajustables
+- Aucune onde (ni Wifi ni Bluetooth activé)
+- Faible coût (Prix de la Miyoo Mini + : 35~45€)
+
+
+A propos
+
+Telmi est une association à but non lucratif (loi 1901) dédiée à l’accès équitable à la culture pour tous les enfants. Nous croyons fermement que les boîtes à histoires sont une source précieuse d’apprentissage et de développement intellectuel pour les jeunes. Cependant, après avoir analysé l’offre actuelle sur le marché, nous avons constaté que cette opportunité reste souvent réservée à une population aisée en raison du coût élevé de la technologie et de son contenu.
+
+Afin de ne pas creuser une inégalité au sein des générations futures, l’Association Telmi a pour objectif de rendre accessible à tous les enfants ce système de boite à histoires grâce à Telmi OS, un système d’exploitation gratuit, libre et open source. Telmi OS a été conçu pour proposer aux enfants une interface simple et épurée pour écouter des histoires en totale autonomie. L’Association Telmi souhaite ainsi promouvoir l’accès à la culture pour tous.
+
+L’association a pour projet de :
+
+- Réduire l’inégalité des chances en proposant une alternative gratuite.
+- Établir des partenariats avec des producteurs de contenu audio jeunesse afin de proposer aux utilisateurs de Telmi des histoires gratuites.
+- Continuer à développer Telmi afin de proposer tant aux enfants qu’aux parents des applications de qualité avec des fonctionnalités avancées pour améliorer l’apprentissage, la découverte, la curiosité et l’éveil des enfants.
+- Créer une communauté participative.
+- Concevoir de nouvelles histoires accès sur l’apprentissage, le développement de l’imaginaire et de l’intellectuel de façon ludique.
+
+
+Fonctionnalités de Telmi
+
+TelmiOS et Telmi Sync offrent une gamme de fonctionnalités conçues pour rendre la lecture d’histoires et l’écoute de musique simple et agréable pour les enfants. Découvrez ce que Telmi peut faire pour vous et vos enfants :
+
+TelmiOS
+
+- Interface Simple et Épurée : Conçue spécialement pour les enfants, l’interface de TelmiOS est intuitive et facile à utiliser, permettant aux enfants de naviguer et de sélectionner leurs histoires et musiques préférées en toute autonomie.
+- Compatibilité avec Miyoo Mini et Miyoo Mini Plus : Transformez votre console de rétro-gaming en une boîte à histoires interactive.
+- Lecture d’Histoires : TelmiOS permet de lire des histoires audio, offrant une expérience immersive sans distraction visuelle, car l’écran reste éteint pendant la lecture.
+- Lecture de Musique : En plus des histoires, TelmiOS supporte la lecture de fichiers musicaux (mp3, ogg, flac), permettant aux enfants d’écouter leurs chansons préférées.
+- Sécurité et Confort : Paramétrez le volume sonore et la luminosité maximum via Telmi Sync pour assurer une utilisation sécurisée et confortable pour les enfants1.
+
+Telmi Sync
+
+- Téléchargement d’Histoires Gratuites : Accédez à un store en ligne pour télécharger des histoires gratuites directement sur votre console.
+- Création d’Histoires : Utilisez une interface simple et intuitive pour créer vos propres histoires et les importer sur TelmiOS.
+- Importation de Contenu : Importez des histoires créées avec STUdio, ainsi que des fichiers musicaux (mp3, ogg, flac) pour enrichir la bibliothèque de votre enfant.
+- Organisation Personnalisée : Organisez les histoires par titres, catégories et âges pour une navigation facile et adaptée aux préférences de votre enfant.
+- Personnalisation des Musiques : Modifiez les titres, albums et artistes des fichiers musicaux, et utilisez la recherche automatique de pochettes d’album pour une expérience enrichie1.
+
+Avantages pour les Parents
+
+- Tranquillité d’Esprit : L’écran reste éteint pendant la lecture, réduisant les distractions et protégeant les yeux des enfants.
+- Contrôle Parental : Ajustez le volume sonore et la luminosité maximum via Telmi Sync pour garantir une utilisation sécurisée.
+- Utilisation Sans Ondes : TelmiOS fonctionne sans Wifi ni Bluetooth activé, minimisant l’exposition aux ondes
