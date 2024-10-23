@@ -362,9 +362,8 @@ section .logo {
         display: none;
     }
 
-    section {
-        margin: 0;
-        width: auto;
+    body > div {
+        padding: 0;
     }
 
     section .logo {
