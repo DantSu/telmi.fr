@@ -45,6 +45,7 @@
     padding: 0;
     outline: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -52,10 +53,15 @@ html, body {
     width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: exo, sans-serif;
     font-size: 18px;
     line-height: 26px;
+    background: rgb(22, 10, 34);
 }
 
 h1 {
@@ -96,11 +102,66 @@ a:hover {
     text-decoration: underline;
 }
 
+.logo {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    overflow: auto;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    padding: 15px;
+    list-style: none;
+}
+
+nav > ul ul {
+    padding: 4px 0 4px 25px;
+}
+
+nav > ul li {
+    padding: 8px 0 8px 0;
+}
+nav > ul li li{
+    padding: 1px 0 1px 0;
+}
+
+nav > ul a {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul a img {
+    margin: 0 15px 0 0;
+}
+
+
 section {
+    margin: 0 0 0 20%;
+    width: 80%;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section .logo {
+    display: none;
 }
 
 .section-container {
@@ -116,7 +177,7 @@ section {
 }
 
 .section-purple-dark {
-    background: rgb(43, 47, 68);
+    background: rgb(22, 10, 34);
     background: radial-gradient(circle, rgb(43, 17, 68) 0%, rgb(22, 10, 34) 100%);
     color: rgba(255, 255, 255, 0.9);
 }
@@ -124,26 +185,44 @@ section {
 .section-gonext {
     position: relative;
 }
+
 /* Animation Keyframes*/
 @keyframes gonext {
-    0% { bottom: 0; }
-    100% { bottom: 15px; }
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 15px;
+    }
 }
 
 @-moz-keyframes gonext {
-    0% { bottom: 0; }
-    100% { bottom: 15px; }
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 15px;
+    }
 }
 
 @-webkit-keyframes gonext {
-    0% { bottom: 0; }
-    100% { bottom: 15px; }
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 15px;
+    }
 }
 
 @-o-keyframes gonext {
-    0% { bottom: 0; }
-    100% { bottom: 15px; }
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 15px;
+    }
 }
+
 .section-gonext:after {
     content: "";
     position: absolute;
@@ -183,14 +262,6 @@ section {
     padding: 40px;
 }
 
-.logo {
-    width: 80%;
-    max-width: 800px;
-    height: auto;
-    display: block;
-    margin: 0 auto 30px auto;
-}
-
 .link-logo {
     display: flex;
     flex-direction: column;
@@ -205,9 +276,11 @@ section {
 
 .img-screen {
     display: block;
-    max-width: 580px;
-    width: 80%;
+    max-width: 80%;
+    width: 580px;
+    max-height: 580px;
     height: auto;
+    object-fit: contain;
 }
 
 .img-miyoo {
@@ -216,4 +289,19 @@ section {
     max-width: 980px;
     height: auto;
     margin: 20px auto;
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        display: none;
+    }
+
+    section {
+        margin: 0;
+        width: auto;
+    }
+
+    section .logo {
+        display: block;
+    }
 }

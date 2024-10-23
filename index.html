@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telmi - Une conteuse d'histoires gratuite, libre et open source</title>
-    <meta name="description" content="Telmi : une boite à histoires interactives conçue par des parents selon la demande des enfants.">
+    <meta name="description"
+          content="Telmi : une boite à histoires interactives conçue par des parents selon la demande des enfants.">
     <link rel="stylesheet" href="style.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
@@ -15,7 +16,21 @@
     <meta name="theme-color" content="#3c1860"/>
 </head>
 <body>
-<section class="section-purple section-gonext">
+<div class="logo-container">
+</div>
+<nav>
+    <img src="img/logo-telmi.svg" alt="Logo Telmi" class="logo"/>
+    <ul>
+        <li><a href="#home"><img src="img/icn-home.svg" alt=""/> Présentation</a></li>
+        <li><a href="#association"><img src="img/icn-people.svg" alt=""/> L'Association</a></li>
+        <li><a href="#telmi-sync"><img src="img/icn-synchronize.svg" alt=""/> Telmi Sync</a></li>
+        <li><a href="#telmi-os"><img src="img/icn-gameboy.svg" alt=""/> Telmi OS</a></li>
+        <li><a href="#documentation"><img src="img/icn-documentation.svg" alt=""/> Documentation</a></li>
+        <li><a href="#download"><img src="img/icn-download.svg" alt=""/> Télécharger</a></li>
+        <li><a href="#contact"><img src="img/icn-social.svg" alt=""/> Contact</a></li>
+    </ul>
+</nav>
+<section class="section-purple section-gonext" id="home">
     <div class="section-container section-presentation">
         <img src="img/logo-telmi.svg" alt="Logo Telmi" class="logo"/>
         <h1>Telmi - Une conteuse d'histoires gratuite, libre et open source</h1>
@@ -23,8 +38,9 @@
             <div class="cell">
                 <h2>Pourquoi les enfants adorent Telmi ?</h2>
                 <p>
-                    Telmi est spécialement conçu pour les enfants de 4 ans et plus, offrant une interface claire,
-                    simple et intuitive pour la lecture d'histoires et l'écoute de musique.
+                    Telmi OS est spécialement conçu pour les enfants de 4 ans et plus, offrant une interface claire,
+                    simple et intuitive pour la lecture d'histoires et l'écoute de musique. Telmi OS est un système
+                    d'exploitation s'installant sur une Miyoo Mini ou Miyoo Mini +.
                 </p>
                 <ul>
                     <li>
@@ -37,7 +53,8 @@
                         simple accessible aux enfants dès 4 ans.
                     </li>
                     <li>
-                        <strong>Mode nuit :</strong> Les enfants peuvent créer en autonomie leurs playlists d'histoires pour
+                        <strong>Mode nuit :</strong> Les enfants peuvent créer en autonomie leurs playlists d'histoires
+                        pour
                         s'endormir.
                     </li>
                     <li>
@@ -60,7 +77,7 @@
                 </p>
                 <p>
                     Le logiciel Telmi Sync simplifie la gestion et la personnalisation de votre bibliothèque d'histoires
-                    et de musiques.
+                    et de musiques sur votre ordinateur.
                 </p>
                 <ul>
                     <li>
@@ -88,14 +105,14 @@
                         fichiers musicaux, et utilisez la recherche automatique de pochettes d’album.
                     </li>
                     <li>
-                        <strong>Faible coût :</strong> La Miyoo Mini plus est trouvable entre 35€~45€.
+                        <strong>Faible coût :</strong> La Miyoo Mini plus est trouvable entre 30€~40€.
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
-<section class="section-purple-dark section-gonext">
+<section class="section-purple-dark section-gonext" id="association">
     <div class="section-container section-presentation">
         <h1>L'Association Telmi</h1>
         <div class="cols">
@@ -140,9 +157,30 @@
         </div>
     </div>
 </section>
-<section class="section-purple section-gonext">
+<section class="section-purple section-gonext" id="telmi-sync">
     <div class="section-container section-image">
-        <h1>Organisez vos histoires !</h1>
+        <h1>Telmi Sync, l'application de gestion des parents !</h1>
+        <div class="cols">
+            <div class="cell">
+                <p>
+                    Le logiciel Telmi Sync simplifie la gestion et la personnalisation de votre bibliothèque d'histoires
+                    et de musiques sur votre ordinateur.
+                </p>
+                <p>
+                    Il vous permettra de créer, importer, télécharger, editer des histoires,
+                    gérer votre bibliothèque de musique... dans une interface claire, simple et intuitive.
+                </p>
+                <p>
+                    <strong>Faites défiler cette page pour en apprendre plus sur Telmi Sync.</strong>
+                </p>
+            </div>
+            <img src="img/screen_stories_square_2.png" alt="" class="img-screen">
+        </div>
+    </div>
+</section>
+<section class="section-purple-dark section-gonext">
+    <div class="section-container section-image">
+        <h1>Telmi Sync : Organisez vos histoires !</h1>
         <div class="cols">
             <img src="img/screen_stories_square.png" alt="" class="img-screen">
             <div class="cell">
@@ -163,9 +201,9 @@
         </div>
     </div>
 </section>
-<section class="section-purple-dark section-gonext">
+<section class="section-purple section-gonext">
     <div class="section-container section-image">
-        <h1>Personnalisez vos musiques !</h1>
+        <h1>Telmi Sync : Personnalisez vos musiques !</h1>
         <div class="cols">
             <div class="cell">
                 <ul>
@@ -186,20 +224,21 @@
         </div>
     </div>
 </section>
-<section class="section-purple section-gonext">
+<section class="section-purple-dark section-gonext">
     <div class="section-container section-image">
-        <h1>Paramétrez Telmi selon votre enfant !</h1>
+        <h1>Telmi Sync : Paramétrez Telmi OS selon votre enfant !</h1>
         <div class="cols">
             <img src="img/screen_param_telmios_min.png" alt="" class="img-screen">
             <div class="cell">
-                <p>Vous seul connaissez réellement votre enfant. Avec Telmi Sync, vous pouvez paramétrer Telmi OS pour que les fonctionnalités lui soient adaptées.</p>
+                <p>Vous seul connaissez réellement votre enfant. Avec Telmi Sync, vous pouvez paramétrer Telmi OS pour
+                    que les fonctionnalités lui soient adaptées.</p>
             </div>
         </div>
     </div>
 </section>
-<section class="section-purple-dark section-gonext">
+<section class="section-purple section-gonext">
     <div class="section-container section-image">
-        <h1>Créez vos propres histoires !</h1>
+        <h1>Telmi Sync : Créez vos propres histoires !</h1>
         <div class="cols">
             <div class="cell">
                 <p>
@@ -216,24 +255,88 @@
         </div>
     </div>
 </section>
-<section class="section-purple section-gonext">
-    <div class="section-container">
-        <h1>Quel sont les rôles des boutons sur Telmi OS ?</h1>
-        <img src="img/miyoo-screen-stories.png" alt="" class="img-miyoo">
-        <img src="img/miyoo-screen-story.png" alt="" class="img-miyoo">
-        <img src="img/miyoo-screen-music.png" alt="" class="img-miyoo">
-        <img src="img/miyoo-screen-album.png" alt="" class="img-miyoo">
+<section class="section-purple-dark section-gonext" id="telmi-os">
+    <div class="section-container section-image">
+        <h1>Telmi OS : la conteuse d'histoires dédiée aux enfants !</h1>
+        <div class="cols">
+            <img src="img/miyoo_mini_plus_stories.png" alt="" class="img-screen">
+            <div class="cell">
+                <p>Telmi OS est un système d'exploitation pour Miyoo Mini Plus.</p>
+                <p>Telmi OS est dédié à la lecture de packs
+                    d'histoires, d'histoires intéractives, de quiz et autres jeux ludoéducatifs nécessitant peu
+                    l'usage d'écran. Ce dernier est naturellement éteint durant les lectures d'histoires,
+                    laissant libre cours à l'imagination de l'enfant.</p>
+            </div>
+        </div>
     </div>
 </section>
 <section class="section-purple-dark section-gonext">
+    <div class="section-container section-image">
+        <h1>Telmi OS : Mais aussi un lecteur MP3 dédié aux enfants !</h1>
+        <div class="cols">
+            <div class="cell">
+                <p><strong>Telmi OS offre aussi la possibilité d'écouter de la musique.</strong></p>
+                <p>L'interface du lecteur mp3 a été pensée pour les enfants à partir de 3 ans. L'objectif est de donner un accès simple et efficace à la musique.</p>
+                <p>Les enfants pourront naviguer entre les albums et choisir différent modes de lecture :</p>
+                <ul>
+                    <li>Toutes les musiques</li>
+                    <li>Aléatoire</li>
+                    <li>Album</li>
+                    <li>Répétition du titre</li>
+                </ul>
+            </div>
+            <img src="img/miyoo_mini_plus_music.png" alt="" class="img-screen">
+        </div>
+    </div>
+</section>
+<section class="section-purple-dark section-gonext">
+    <div class="section-container section-image">
+        <h1>Telmi OS : Un "mode nuit" pour le soir !</h1>
+        <div class="cols">
+            <img src="img/miyoo_mini_plus_nightmode.png" alt="" class="img-screen">
+            <div class="cell">
+                <p><strong>Le soir avant de s'endormir, composez une playlist pour votre enfant !</strong></p>
+                <p>Sélectionnez des histoires et lancez la playlist. Elles s'enchaineront puis la conteuse s'éteindra à la fin de la lecture.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-purple section-gonext" id="documentation">
+    <div class="section-container section-presentation">
+        <h1>Documentation</h1>
+        <div class="cols">
+            <div class="cell">
+                <p>
+                    Pour découvrir toutes les fonctionnalités de Telmi,
+                    comprendre comment marche l'application Telmi Sync et le système d'exploitation Telmi OS,
+                    rien de mieux que de lire la documentation.
+                </p>
+                <p>
+                    Au programme : des tutoriels écrits et vidéos pour bien prendre en main l'écosytème Telmi.
+                </p>
+            </div>
+            <div class="cell">
+                <h2>Lien :</h2>
+                <p>
+                    <a href="documentation.html" class="link-logo">
+                        <img src="img/icn-documentation.svg" alt=""/>
+                        Documentation de Telmi
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-purple-dark section-gonext" id="download">
     <div class="section-container section-presentation">
         <h1>Où puis-je télécharger Telmi ?</h1>
         <div class="cols">
             <div class="cell">
                 <h2>Telmi OS :</h2>
                 <p>
-                    <a href="https://github.com/DantSu/Telmi-story-teller/releases/download/1.6.0/TelmiOS_v1.6.0.zip" class="link-logo">
-                        <img src="img/logo-miyoomini.svg" alt=""/>
+                    <a href="https://github.com/DantSu/Telmi-story-teller/releases/download/1.6.0/TelmiOS_v1.6.0.zip"
+                       class="link-logo">
+                        <img src="img/icn-gameboy.svg" alt=""/>
                         Miyoo Mini +
                     </a>
                 </p>
@@ -241,19 +344,22 @@
             <div class="cell">
                 <h2>Telmi Sync :</h2>
                 <p>
-                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync.Setup.0.6.0.exe" class="link-logo">
+                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync.Setup.0.6.0.exe"
+                       class="link-logo">
                         <img src="img/logo-windows.svg" alt=""/>
                         Windows
                     </a>
                 </p>
                 <p>
-                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync-0.6.0.dmg" class="link-logo">
+                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync-0.6.0.dmg"
+                       class="link-logo">
                         <img src="img/logo-macos.svg" alt=""/>
                         Mac OS
                     </a>
                 </p>
                 <p>
-                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync-0.6.0.AppImage" class="link-logo">
+                    <a href="https://github.com/DantSu/Telmi-Sync/releases/download/0.6.0/Telmi.Sync-0.6.0.AppImage"
+                       class="link-logo">
                         <img src="img/logo-linux.svg" alt=""/>
                         Linux
                     </a>
@@ -262,7 +368,7 @@
         </div>
     </div>
 </section>
-<section class="section-purple">
+<section class="section-purple" id="contact">
     <div class="section-container section-presentation">
         <h1>Besoin d'aide ? Une question ?</h1>
         <div class="cols">
@@ -271,8 +377,7 @@
                 <p>
                     <a href="https://discord.gg/ZTA5FyERbg" class="link-logo">
                         <img src="img/logo-discord.svg" alt=""/>
-                        Rejoignez la communauté Telmi<br/>
-                        sur Discord
+                        Rejoignez la communauté Telmi sur Discord
                     </a>
                 </p>
             </div>
