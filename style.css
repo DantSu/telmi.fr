@@ -61,7 +61,6 @@ body {
     font-family: exo, sans-serif;
     font-size: 18px;
     line-height: 26px;
-    background: rgb(22, 10, 34);
 }
 
 h1 {
@@ -111,6 +110,7 @@ a:hover {
 }
 
 nav {
+    pointer-events: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -123,6 +123,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgb(22, 10, 34);
 }
 
 nav > ul {
@@ -135,6 +136,7 @@ nav > ul ul {
 }
 
 nav > ul li {
+    pointer-events: auto;
     padding: 8px 0 8px 0;
 }
 nav > ul li li{
@@ -146,15 +148,78 @@ nav > ul a {
     align-items: center;
 }
 
-nav > ul a img {
+nav > ul a i {
     margin: 0 15px 0 0;
 }
 
 
+i {
+    display: inline-block;
+    mask-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.9);
+}
+i.home {
+    -webkit-mask: url(img/icn-home.svg);
+    mask: url(img/icn-home.svg);
+}
+i.association {
+    -webkit-mask: url(img/icn-people.svg);
+    mask: url(img/icn-people.svg);
+}
+i.telmi-sync {
+    -webkit-mask: url(img/icn-synchronize.svg);
+    mask: url(img/icn-synchronize.svg);
+}
+i.telmi-os {
+    -webkit-mask: url(img/icn-gameboy.svg);
+    mask: url(img/icn-gameboy.svg);
+}
+i.documentation {
+    -webkit-mask: url(img/icn-documentation.svg);
+    mask: url(img/icn-documentation.svg);
+}
+i.download {
+    -webkit-mask: url(img/icn-download.svg);
+    mask: url(img/icn-download.svg);
+}
+i.contact {
+    -webkit-mask: url(img/icn-social.svg);
+    mask: url(img/icn-social.svg);
+}
+
+
+#home:hover ~ nav > ul > li:nth-child(1),
+#association:hover ~ nav > ul > li:nth-child(2),
+#telmi-sync:hover ~ nav > ul > li:nth-child(3),
+#telmi-os:hover ~ nav > ul > li:nth-child(4),
+#documentation:hover ~ nav > ul > li:nth-child(5),
+#download:hover ~ nav > ul > li:nth-child(6),
+#contact:hover ~ nav > ul > li:nth-child(7) {
+    color: #FFA500;
+    transition: color 0.3s;
+}
+
+#home:hover ~ nav > ul > li:nth-child(1) i,
+#association:hover ~ nav > ul > li:nth-child(2) i,
+#telmi-sync:hover ~ nav > ul > li:nth-child(3) i,
+#telmi-os:hover ~ nav > ul > li:nth-child(4) i,
+#documentation:hover ~ nav > ul > li:nth-child(5) i,
+#download:hover ~ nav > ul > li:nth-child(6) i,
+#contact:hover ~ nav > ul > li:nth-child(7) i {
+    background: #FFA500;
+    transition: background 0.3s;
+}
+
+body > div {
+    width: 100%;
+    padding: 0 0 0 20%;
+}
+
 section {
-    margin: 0 0 0 20%;
-    width: 80%;
-    min-height: 100%;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,6 +335,7 @@ section .logo {
 }
 
 .link-logo img {
+    opacity: 0.75;
     width: auto;
     height: 64px;
 }
