@@ -165,6 +165,7 @@ nav {
     flex-direction: column;
     background: rgb(22, 10, 34);
 }
+
 nav > div {
     display: flex;
     flex-direction: column;
@@ -211,7 +212,27 @@ nav > div > ul a i {
 #telmi-os:hover ~ nav > div > ul > li:nth-child(4),
 #documentation:hover ~ nav > div > ul > li:nth-child(5),
 #download:hover ~ nav > div > ul > li:nth-child(6),
-#contact:hover ~ nav > div > ul > li:nth-child(7) {
+#contact:hover ~ nav > div > ul > li:nth-child(7),
+#doc-telmi-sync-installation:hover ~ nav > div > ul > li.menu-telmi-sync  > a,
+#doc-telmi-sync-histoires:hover ~ nav > div > ul > li.menu-telmi-sync > a,
+#doc-telmi-sync-musiques:hover ~ nav > div > ul > li.menu-telmi-sync > a,
+#doc-telmi-sync-stores:hover ~ nav > div > ul > li.menu-telmi-sync > a,
+#doc-telmi-sync-studio:hover ~ nav > div > ul > li.menu-telmi-sync > a,
+#doc-telmi-os-installation:hover ~ nav > div > ul > li.menu-telmi-os > a,
+#doc-telmi-os-maj:hover ~ nav > div > ul > li.menu-telmi-os > a,
+#doc-telmi-os-histoires:hover ~ nav > div > ul > li.menu-telmi-os > a,
+#doc-telmi-os-musiques:hover ~ nav > div > ul > li.menu-telmi-os > a,
+#doc-telmi-os-mode-nuit:hover ~ nav > div > ul > li.menu-telmi-os > a,
+#doc-telmi-sync-installation:hover ~ nav > div > ul > li.menu-telmi-sync > ul > li:nth-child(1),
+#doc-telmi-sync-histoires:hover ~ nav > div > ul > li.menu-telmi-sync > ul > li:nth-child(2),
+#doc-telmi-sync-musiques:hover ~ nav > div > ul > li.menu-telmi-sync > ul > li:nth-child(3),
+#doc-telmi-sync-stores:hover ~ nav > div > ul > li.menu-telmi-sync > ul > li:nth-child(4),
+#doc-telmi-sync-studio:hover ~ nav > div > ul > li.menu-telmi-sync > ul > li:nth-child(5),
+#doc-telmi-os-installation:hover ~ nav > div > ul > li.menu-telmi-os > ul > li:nth-child(1),
+#doc-telmi-os-maj:hover ~ nav > div > ul > li.menu-telmi-os > ul > li:nth-child(2),
+#doc-telmi-os-histoires:hover ~ nav > div > ul > li.menu-telmi-os > ul > li:nth-child(3),
+#doc-telmi-os-musiques:hover ~ nav > div > ul > li.menu-telmi-os > ul > li:nth-child(4),
+#doc-telmi-os-mode-nuit:hover ~ nav > div > ul > li.menu-telmi-os > ul > li:nth-child(5) {
     color: #FFA500;
     transition: color 0.3s;
 }
@@ -222,7 +243,17 @@ nav > div > ul a i {
 #telmi-os:hover ~ nav > div > ul > li:nth-child(4) i,
 #documentation:hover ~ nav > div > ul > li:nth-child(5) i,
 #download:hover ~ nav > div > ul > li:nth-child(6) i,
-#contact:hover ~ nav > div > ul > li:nth-child(7) i {
+#contact:hover ~ nav > div > ul > li:nth-child(7) i,
+#doc-telmi-sync-installation:hover ~ nav > div > ul > li.menu-telmi-sync i,
+#doc-telmi-sync-histoires:hover ~ nav > div > ul > li.menu-telmi-sync i,
+#doc-telmi-sync-musiques:hover ~ nav > div > ul > li.menu-telmi-sync i,
+#doc-telmi-sync-stores:hover ~ nav > div > ul > li.menu-telmi-sync i,
+#doc-telmi-sync-studio:hover ~ nav > div > ul > li.menu-telmi-sync i,
+#doc-telmi-os-installation:hover ~ nav > div > ul > li.menu-telmi-os i,
+#doc-telmi-os-maj:hover ~ nav > div > ul > li.menu-telmi-os i,
+#doc-telmi-os-histoires:hover ~ nav > div > ul > li.menu-telmi-os i,
+#doc-telmi-os-musiques:hover ~ nav > div > ul > li.menu-telmi-os i,
+#doc-telmi-os-mode-nuit:hover ~ nav > div > ul > li.menu-telmi-os i {
     background: #FFA500;
     transition: background 0.3s;
 }
