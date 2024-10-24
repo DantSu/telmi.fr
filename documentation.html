@@ -15,61 +15,282 @@
     <meta name="theme-color" content="#3c1860"/>
 </head>
 <body>
+<div>
+    <section class="section-purple section-gonext">
+        <div class="section-container section-presentation">
+            <h1>Documentation de Telmi</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p>
+                        Vous voici dans la documentation de Telmi. Que souhaitez vous découvrir ?
+                    </p>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="cell">
+                    <h2>Telmi Sync :</h2>
+                    <p>
+                        <a href="#doc-telmi-sync-installation" class="link-logo">
+                            <img src="img/icn-synchronize.svg" alt=""/>
+                            Apprendre à utiliser Telmi Sync
+                        </a>
+                    </p>
+                </div>
+                <div class="cell">
+                    <h2>Telmi OS :</h2>
+                    <p>
+                        <a href="#doc-telmi-os-installation" class="link-logo">
+                            <img src="img/icn-gameboy.svg" alt=""/>
+                            Apprendre à utiliser Telmi OS
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-sync-installation">
+    <section class="section-purple-dark section-gonext">
+        <div class="section-container">
+            <h1>Telmi Sync : Installation</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>En construction...</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-sync-histoires">
+    <section class="section-purple section-gonext">
+        <div class="section-container">
+            <h1>Telmi Sync : Gestion des histoires</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>En construction...</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-sync-musiques">
+    <section class="section-purple-dark section-gonext">
+        <div class="section-container">
+            <h1>Telmi Sync : Gestion des musiques</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>En construction...</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-sync-stores">
+    <section class="section-purple section-gonext">
+        <div class="section-container">
+            <h1>Telmi Sync : Utilisation des stores</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>En construction...</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-sync-studio">
+    <section class="section-purple-dark section-gonext">
+        <div class="section-container">
+            <h1>Telmi Sync : Créer ses histoires</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>En construction...</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-os-installation">
+    <section class="section-purple">
+        <div class="section-container section-image">
+            <h1>Telmi OS : Installation (Partie 1 - Formatage FAT32)</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p>Pour installer Telmi OS il faut commencer par formater une carte micro SD en FAT32.</p>
+                    <p><strong>Attention un formatage supprime toutes les données présentes
+                        sur la carte micro SD.</strong></p>
+                </div>
+            </div>
+            <div class="cols">
+                <img src="img/screen_rufus.png" alt="" class="img-screen">
+                <div class="cell">
+                    <h2>Windows : Formater en FAT32</h2>
+                    <p>Veuillez télécharger <a href="https://rufus.ie/fr/" target="_blank">Rufus
+                        (https://rufus.ie/fr/)</a> :</p>
+                    <ul>
+                        <li>Branchez votre carte micro SD à l'ordinateur.</li>
+                        <li>Lancer le logiciel Rufus.</li>
+                        <li>Sélectionnez dans <strong>Périphérique</strong> la carte micro SD que vous souhaitez
+                            formater.
+                        </li>
+                        <li>Sélectionnez dans <strong>Type de démarrage => Non démarrable</strong></li>
+                        <li>Sélectionnez dans <strong>Schéma de partition => MBR</strong></li>
+                        <li>Sélectionnez dans <strong>Système de destination => BIOS ou UEFI</strong></li>
+                        <li>Sélectionnez dans <strong>Système de fichiers => Large FAT32</strong></li>
+                        <li>Sélectionnez dans <strong>Taille d'unité d'allocation => 32 kilo-octets</strong></li>
+                        <li>Pour finir cliquez sur <strong>DEMARRER</strong></li>
+                    </ul>
+                    <p><a href="#doc-telmi-os-installation-fin">Le formatage est terminé, maintenant rendez-vous un peu
+                        plus bas pour la suite !</a></p>
+                </div>
+            </div>
+            <div class="cols">
+                <img src="img/screen_macos.png" alt="" class="img-screen">
+                <div class="cell">
+                    <h2>Mac OS : Formater en FAT32</h2>
+                    <p>Sur MacOS vous pouvez formatter votre carte micro SD avec l'utilitaire de disque :</p>
+                    <ul>
+                        <li>Branchez votre carte micro SD à votre Mac.</li>
+                        <li>Ouvrez <strong>Application > Utilitaires > Utilitaire de disques</strong></li>
+                        <li>Dans le menu de gauche sélectionnez la carte micro SD que vous souhaitez formatter.</li>
+                        <li>Cliquez sur le bouton <strong>Effacer</strong> en haut de la fenêtre.</li>
+                        <li>Sélectionnez dans <strong>Format => MS-DOS (FAT32)</strong></li>
+                        <li>Cliquez sur <strong>Effacer</strong> pour valider</li>
+                    </ul>
+                    <p><a href="#doc-telmi-os-installation-fin">Le formatage est terminé, maintenant rendez-vous un peu
+                        plus bas pour la suite !</a></p>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="cell">
+                    <h2>Linux : Formater en FAT32</h2>
+                    <p>Veuillez vous référer à ce tutoriel pour formater votre carte en FAT32 : <a
+                            href="https://www.golinuxcloud.com/steps-to-format-sd-card-in-linux/">https://www.golinuxcloud.com/steps-to-format-sd-card-in-linux/</a>
+                    </p>
+                    <p><a href="#doc-telmi-os-installation-fin">Le formatage est terminé, maintenant rendez-vous un peu
+                        plus bas pour la suite !</a></p>
+                </div>
+            </div>
+            <h1 id="doc-telmi-os-installation-fin">Telmi OS : Installation (Partie 2)</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p>Votre carte micro SD est maintenant formater en FAT32 et toujours connectée à votre ordinateur. Nous pouvons passer aux étapes suivantes :</p>
+                    <ul>
+                        <li>Téléchargez le fichier pour la <strong>Miyoo Mini +</strong> disponible à cette adresse : <a href="index.html#download">https://telmi.fr/index.html#download</a></li>
+                        <li>Dézippez le contenu du fichier téléchargé à la <strong>racine</strong> de votre carte micro SD.</li>
+                        <li>Ejectez et retirez la carte micro SD de votre ordinateur.</li>
+                        <li>Insérez la carte dans la Miyoo Mini + éteinte.</li>
+                        <li>Allumez la Miyoo Mini +.</li>
+                        <li>L'installation se lance automatiquement, veuillez patienter.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-os-maj">
+    <section class="section-purple-dark section-gonext">
+        <div class="section-container section-presentation">
+            <h1>Telmi OS : Mettre à jour</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p><strong>La mise à jour de Telmi OS est automatique.</strong></p>
+                    <ul>
+                        <li>Ouvrez Telmi Sync</li>
+                        <li>Connectez votre carte micro SD à l'ordinateur</li>
+                        <li><em>Telmi Sync télécharge et installe la mise à jour automatiquement</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-os-histoires">
+    <section class="section-purple section-gonext">
+        <div class="section-container">
+            <h1>Telmi OS : Lecture d'histoires</h1>
+            <img src="img/miyoo-screen-stories.png" alt="" class="img-miyoo">
+            <img src="img/miyoo-screen-story.png" alt="" class="img-miyoo">
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-os-musiques">
+    <section class="section-purple-dark section-gonext">
+        <div class="section-container">
+            <h1>Telmi OS : Lecture de musique</h1>
+            <img src="img/miyoo-screen-music.png" alt="" class="img-miyoo">
+            <img src="img/miyoo-screen-album.png" alt="" class="img-miyoo">
+        </div>
+    </section>
+</div>
+<div id="doc-telmi-os-mode-nuit">
+    <section class="section-purple">
+        <div class="section-container section-image">
+            <h1>Telmi OS : Mode nuit</h1>
+            <div class="cols">
+                <img src="img/miyoo_mini_plus_nightmode_2.png" alt="" class="img-screen">
+                <div class="cell">
+                    <p>Lorsque vous sélectionnez le dragon accompagné d'une lune et d'étoiles, vous entrez dans le Mode
+                        Nuit.</p>
+
+                    <p>Vous vous retrouvez sur la liste des packs présent dans la Telmi avec un compteur en haut à
+                        gauche de l'écran (Un ovale orange avec une lune et 5 étoiles).
+                        <strong>Ce compteur vous indique le nombre d'histoire dans votre playlist.</strong></p>
+
+                    <p>Vous devez donc ensuite sélectionner une histoire comme dans le "Mode Histoires" classique sauf
+                        que lorsque une histoire (compatible avec le mode nuit) sera lancé, l'écran ne sera pas éteint.
+                        A La place il affichera à l'écran deux options :</p>
+                    <ul>
+                        <li>Appuyer sur "A" pour ajouter une histoire à la playlist.</li>
+                        <li>Appuyer sur "START" pour ajouter une histoire à la playlist <strong>et la lancer.</strong>
+                        </li>
+                    </ul>
+
+                    <p>La playlist se lancera, toutes les histoires sélectionnées se liront à la suite les unes des
+                        autres. Une fois la playlist finit, la console s'éteindra.</p>
+
+                    <p><strong>ATTENTION : Les histoires compatibles avec le mode nuit sont les audio qui respectent les
+                        deux règles suivantes :</strong></p>
+                    <ul>
+                        <li><strong>les audio en AUTOPLAY (qui passe automatiquement à l'audio suivant à la fin de
+                            celui-ci)</strong></li>
+                        <li><strong>Les audio qui NE sont PAS passable avec le bouton A (Bouton OK non activé sur
+                            STUdio)</strong></li>
+                    </ul>
+
+                    <p><em>Cette fonctionnalité est désactivable via Telmi Sync.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 <nav>
-    <img src="img/logo-telmi.svg" alt="Logo Telmi" class="logo"/>
-    <ul>
-        <li><a href="index.html"><img src="img/icn-home.svg" alt=""/> Accueil</a></li>
-        <li>
-            <a href="#telmi-sync"><img src="img/icn-synchronize.svg" alt=""/> Telmi Sync</a>
-            <ul>
-                <li><a href="#telmi-sync-installation">Installation</a></li>
-                <li><a href="#telmi-sync-installation">Histoires</a></li>
-                <li><a href="#telmi-sync-installation">Musiques</a></li>
-                <li><a href="#telmi-sync-installation">Stores</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#telmi-os"><img src="img/icn-gameboy.svg" alt=""/> Telmi OS</a>
-            <ul>
-                <li><a href="#telmi-sync-installation">Installation</a></li>
-                <li><a href="#telmi-sync-installation">Histoires</a></li>
-                <li><a href="#telmi-sync-installation">Musiques</a></li>
-                <li><a href="#telmi-sync-installation">Mode Nuit</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
-<section class="section-purple section-gonext">
-    <div class="section-container section-presentation">
-        <h1>Documentation de Telmi</h1>
-        <div class="cols">
-            <div class="cell">
-                <p>
-                    Vous voici dans la documentation de Telmi. Que souhaitez vous découvrir ?
-                </p>
-            </div>
-        </div>
-        <div class="cols">
-            <div class="cell">
-                <h2>Telmi Sync :</h2>
-                <p>
-                    <a href="#telmi-sync" class="link-logo">
-                        <img src="img/icn-synchronize.svg" alt=""/>
-                        Apprendre à utiliser Telmi Sync
-                    </a>
-                </p>
-            </div>
-            <div class="cell">
-                <h2>Telmi OS :</h2>
-                <p>
-                    <a href="#telmi-os" class="link-logo">
-                        <img src="img/icn-gameboy.svg" alt=""/>
-                        Apprendre à utiliser Telmi OS
-                    </a>
-                </p>
-            </div>
-        </div>
+    <div>
+        <img src="img/logo-telmi.svg" alt="Logo Telmi" class="logo"/>
+        <ul>
+            <li><a href="index.html"><i class="home"></i> Retour au site</a></li>
+            <li>
+                <a href="#doc-telmi-sync-installation"><i class="telmi-sync"></i> Telmi Sync</a>
+                <ul>
+                    <li><a href="#doc-telmi-sync-installation">Installation</a></li>
+                    <li><a href="#doc-telmi-sync-histoires">Histoires</a></li>
+                    <li><a href="#doc-telmi-sync-musiques">Musiques</a></li>
+                    <li><a href="#doc-telmi-sync-stores">Stores</a></li>
+                    <li><a href="#doc-telmi-sync-studio">Studio</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#doc-telmi-os-installation"><i class="telmi-os"></i> Telmi OS</a>
+                <ul>
+                    <li><a href="#doc-telmi-os-installation">Installation</a></li>
+                    <li><a href="#doc-telmi-os-maj">Mise à jour</a></li>
+                    <li><a href="#doc-telmi-os-histoires">Histoires</a></li>
+                    <li><a href="#doc-telmi-os-musiques">Musiques</a></li>
+                    <li><a href="#doc-telmi-os-mode-nuit">Mode Nuit</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
-</section>
+</nav>
 </body>
 </html>

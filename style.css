@@ -54,7 +54,7 @@ html, body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -101,6 +101,49 @@ a:hover {
     text-decoration: underline;
 }
 
+i {
+    display: inline-block;
+    mask-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+i.home {
+    -webkit-mask: url(img/icn-home.svg);
+    mask: url(img/icn-home.svg);
+}
+
+i.association {
+    -webkit-mask: url(img/icn-people.svg);
+    mask: url(img/icn-people.svg);
+}
+
+i.telmi-sync {
+    -webkit-mask: url(img/icn-synchronize.svg);
+    mask: url(img/icn-synchronize.svg);
+}
+
+i.telmi-os {
+    -webkit-mask: url(img/icn-gameboy.svg);
+    mask: url(img/icn-gameboy.svg);
+}
+
+i.documentation {
+    -webkit-mask: url(img/icn-documentation.svg);
+    mask: url(img/icn-documentation.svg);
+}
+
+i.download {
+    -webkit-mask: url(img/icn-download.svg);
+    mask: url(img/icn-download.svg);
+}
+
+i.contact {
+    -webkit-mask: url(img/icn-social.svg);
+    mask: url(img/icn-social.svg);
+}
+
+
 .logo {
     width: 80%;
     max-width: 800px;
@@ -110,7 +153,6 @@ a:hover {
 }
 
 nav {
-    pointer-events: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -121,93 +163,66 @@ nav {
     color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: rgb(22, 10, 34);
 }
+nav > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
 
-nav > ul {
+nav > div .logo {
+    margin: 30px auto 15px auto;
+}
+
+nav > div > ul {
     padding: 15px;
     list-style: none;
 }
 
-nav > ul ul {
+nav > div > ul ul {
     padding: 4px 0 4px 25px;
 }
 
-nav > ul li {
-    pointer-events: auto;
+nav > div > ul li {
     padding: 8px 0 8px 0;
 }
-nav > ul li li{
+
+nav > div > ul li li {
     padding: 1px 0 1px 0;
 }
 
-nav > ul a {
+nav > div > ul a {
     display: flex;
     align-items: center;
 }
 
-nav > ul a i {
+nav > div > ul a i {
     margin: 0 15px 0 0;
-}
-
-
-i {
-    display: inline-block;
-    mask-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
     background: rgba(255, 255, 255, 0.9);
 }
-i.home {
-    -webkit-mask: url(img/icn-home.svg);
-    mask: url(img/icn-home.svg);
-}
-i.association {
-    -webkit-mask: url(img/icn-people.svg);
-    mask: url(img/icn-people.svg);
-}
-i.telmi-sync {
-    -webkit-mask: url(img/icn-synchronize.svg);
-    mask: url(img/icn-synchronize.svg);
-}
-i.telmi-os {
-    -webkit-mask: url(img/icn-gameboy.svg);
-    mask: url(img/icn-gameboy.svg);
-}
-i.documentation {
-    -webkit-mask: url(img/icn-documentation.svg);
-    mask: url(img/icn-documentation.svg);
-}
-i.download {
-    -webkit-mask: url(img/icn-download.svg);
-    mask: url(img/icn-download.svg);
-}
-i.contact {
-    -webkit-mask: url(img/icn-social.svg);
-    mask: url(img/icn-social.svg);
-}
 
-
-#home:hover ~ nav > ul > li:nth-child(1),
-#association:hover ~ nav > ul > li:nth-child(2),
-#telmi-sync:hover ~ nav > ul > li:nth-child(3),
-#telmi-os:hover ~ nav > ul > li:nth-child(4),
-#documentation:hover ~ nav > ul > li:nth-child(5),
-#download:hover ~ nav > ul > li:nth-child(6),
-#contact:hover ~ nav > ul > li:nth-child(7) {
+#home:hover ~ nav > div > ul > li:nth-child(1),
+#association:hover ~ nav > div > ul > li:nth-child(2),
+#telmi-sync:hover ~ nav > div > ul > li:nth-child(3),
+#telmi-os:hover ~ nav > div > ul > li:nth-child(4),
+#documentation:hover ~ nav > div > ul > li:nth-child(5),
+#download:hover ~ nav > div > ul > li:nth-child(6),
+#contact:hover ~ nav > div > ul > li:nth-child(7) {
     color: #FFA500;
     transition: color 0.3s;
 }
 
-#home:hover ~ nav > ul > li:nth-child(1) i,
-#association:hover ~ nav > ul > li:nth-child(2) i,
-#telmi-sync:hover ~ nav > ul > li:nth-child(3) i,
-#telmi-os:hover ~ nav > ul > li:nth-child(4) i,
-#documentation:hover ~ nav > ul > li:nth-child(5) i,
-#download:hover ~ nav > ul > li:nth-child(6) i,
-#contact:hover ~ nav > ul > li:nth-child(7) i {
+#home:hover ~ nav > div > ul > li:nth-child(1) i,
+#association:hover ~ nav > div > ul > li:nth-child(2) i,
+#telmi-sync:hover ~ nav > div > ul > li:nth-child(3) i,
+#telmi-os:hover ~ nav > div > ul > li:nth-child(4) i,
+#documentation:hover ~ nav > div > ul > li:nth-child(5) i,
+#download:hover ~ nav > div > ul > li:nth-child(6) i,
+#contact:hover ~ nav > div > ul > li:nth-child(7) i {
     background: #FFA500;
     transition: background 0.3s;
 }
@@ -342,11 +357,12 @@ section .logo {
 
 .img-screen {
     display: block;
-    max-width: 80%;
-    width: 580px;
-    max-height: 580px;
+    width: 40%;
     height: auto;
+    max-width: 580px;
+    max-height: 580px;
     object-fit: contain;
+    margin: 30px;
 }
 
 .img-miyoo {
@@ -368,5 +384,11 @@ section .logo {
 
     section .logo {
         display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .img-screen {
+        width: 80%;
     }
 }
