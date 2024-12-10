@@ -450,5 +450,13 @@
 
     </div>
 </nav>
+
+<script type="text/javascript">
+  document.querySelectorAll('nav a').forEach(function (item) {
+    item.addEventListener('click', function () {
+      document.querySelector('#burger-menu-checkbox').checked = false;
+    });
+  });
+</script>
 </body>
 </html>
