@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telmi - Une conteuse d'histoires gratuite, libre et open source</title>
+    <meta name="description"
+          content="Telmi : une boite à histoires interactives conçue par des parents selon la demande des enfants.">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
+    <link rel="manifest" href="site.webmanifest"/>
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#ffa900"/>
+    <script defer src="/scripts.js" data-website-id="3edad310-3887-44ee-80ae-f88afeff2390"></script>
+    <meta name="msapplication-TileColor" content="#ffa900"/>
+    <meta name="theme-color" content="#3c1860"/>
+</head>
+<body>
+<div id="politique-confidentialite">
+    <section class="section-purple section-gonext">
+        <div class="section-container section-presentation">
+            <h1>Politique de confidentialité de l'application Telmi</h1>
+            <div class="cols">
+                <div class="cell">
+                    <p>L’application ne récupère et ne transfère aucune donnée personnelle.</p>
+
+                    <h2>Modifications</h2>
+
+                    <p>Les présentes règles de confidentialité peuvent être amenées à changer.</p>
+
+                    <p>
+                        L’installation et l’utilisation de l’application vaut acceptation des présentes règles sans
+                        restriction. Si vous ne les acceptez pas, veuillez ne pas installer, ne pas mettre à jour,
+                        ni exécuter l’application.
+                    </p>
+
+                    <p>
+                        Nous nous engageons à publier toute modification des règles de confidentialité sur cette page.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<input type="checkbox" id="burger-menu-checkbox" aria-disabled="true"/>
+
+<label class="burger-menu" for="burger-menu-checkbox" aria-disabled="true">
+    <img src="img/icn-bars.svg" alt="Menu"/>
+    <img src="img/icn-xmark.svg" alt="Menu"/>
+</label>
+
+<nav>
+    <div>
+        <img src="img/logo-telmi.svg" alt="Logo Telmi" class="logo"/>
+        <ul>
+            <li><a href="#home"><i class="home"></i> Telmi.fr</a></li>
+            <li><a href="#politique-confidentialite"><i class="association"></i> Politique de confidentialité</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script type="text/javascript">
+  document.querySelectorAll('nav a').forEach(function (item) {
+    item.addEventListener('click', function () {
+      document.querySelector('#burger-menu-checkbox').checked = false
+    })
+  })
+</script>
+</body>
+</html>
