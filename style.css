@@ -128,6 +128,11 @@ i.telmi-os {
     mask: url(img/icn-gameboy.svg);
 }
 
+i.android-app {
+    -webkit-mask: url(img/logo-android.svg);
+    mask: url(img/logo-android.svg);
+}
+
 i.documentation {
     -webkit-mask: url(img/icn-documentation.svg);
     mask: url(img/icn-documentation.svg);
@@ -210,9 +215,10 @@ nav > div > ul a i {
 #association:hover ~ nav > div > ul > li:nth-child(2),
 #telmi-sync:hover ~ nav > div > ul > li:nth-child(3),
 #telmi-os:hover ~ nav > div > ul > li:nth-child(4),
-#documentation:hover ~ nav > div > ul > li:nth-child(5),
-#download:hover ~ nav > div > ul > li:nth-child(6),
-#contact:hover ~ nav > div > ul > li:nth-child(7),
+#android-app:hover ~ nav > div > ul > li:nth-child(5),
+#documentation:hover ~ nav > div > ul > li:nth-child(6),
+#download:hover ~ nav > div > ul > li:nth-child(7),
+#contact:hover ~ nav > div > ul > li:nth-child(8),
 #doc-telmi-sync-installation:hover ~ nav > div > ul > li.menu-telmi-sync > a,
 #doc-telmi-sync-histoires:hover ~ nav > div > ul > li.menu-telmi-sync > a,
 #doc-telmi-sync-musiques:hover ~ nav > div > ul > li.menu-telmi-sync > a,
@@ -241,9 +247,10 @@ nav > div > ul a i {
 #association:hover ~ nav > div > ul > li:nth-child(2) i,
 #telmi-sync:hover ~ nav > div > ul > li:nth-child(3) i,
 #telmi-os:hover ~ nav > div > ul > li:nth-child(4) i,
-#documentation:hover ~ nav > div > ul > li:nth-child(5) i,
-#download:hover ~ nav > div > ul > li:nth-child(6) i,
-#contact:hover ~ nav > div > ul > li:nth-child(7) i,
+#android-app:hover ~ nav > div > ul > li:nth-child(5) i,
+#documentation:hover ~ nav > div > ul > li:nth-child(6) i,
+#download:hover ~ nav > div > ul > li:nth-child(7) i,
+#contact:hover ~ nav > div > ul > li:nth-child(8) i,
 #doc-telmi-sync-installation:hover ~ nav > div > ul > li.menu-telmi-sync i,
 #doc-telmi-sync-histoires:hover ~ nav > div > ul > li.menu-telmi-sync i,
 #doc-telmi-sync-musiques:hover ~ nav > div > ul > li.menu-telmi-sync i,
@@ -399,6 +406,17 @@ section .logo {
 
 .cell {
     padding: 40px;
+}
+
+.links-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.links-horizontal li {
+    padding: 15px;
 }
 
 .link-logo {
