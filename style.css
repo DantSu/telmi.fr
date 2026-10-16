@@ -413,10 +413,12 @@ section .logo {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
 }
 .links-horizontal li {
     padding: 15px;
+    min-width: 180px;
 }
 
 .link-logo {
